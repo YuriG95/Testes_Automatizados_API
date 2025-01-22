@@ -29,10 +29,11 @@ Além disso, há uma função personalizada que gera nomes e e-mails aleatórios
    - Realiza um GET inicial para obter a lista de usuários.
    - Identifica o último usuário da lista e realiza a deleção baseada no ID.
    - Verifica se o status code indica sucesso (200, 201 ou 204).
-
+---
 ![Texto alternativo](https://github.com/YuriG95/Testes_Automatizados_API/blob/main/testes%20automatizado%20python.jpg)
 
 ---
+
 
 ## Dependências
 
@@ -56,25 +57,26 @@ pip freeze > requirements.txt
 
 1. **Clone o Repositório:**
 
-   ```bash
-git clone <url-do-repositorio>
-cd Teste-Automatizado-API
    ```
+   git clone https://github.com/YuriG95/Testes_Automatizados_API 
+   
+   
 
-2. **Instale as Dependências:**
+2. Instale as Dependências:
 
-   ```bash
+```
 pip install -r requirements.txt
-   ```
+
+```
 
 3. **Configure o Projeto:**
    - Verifique e atualize os valores em `routes.py` e `body.py` de acordo com sua API.
 
 4. **Execute os Testes:**
 
-   ```bash
-python -m testes.main
-   ```
+ ```  python -m testes.main ```
+ 
+   
 
 ---
 
