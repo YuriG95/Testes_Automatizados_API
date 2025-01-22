@@ -30,6 +30,8 @@ Além disso, há uma função personalizada que gera nomes e e-mails aleatórios
    - Identifica o último usuário da lista e realiza a deleção baseada no ID.
    - Verifica se o status code indica sucesso (200, 201 ou 204).
 
+![Texto alternativo](https://github.com/YuriG95/Testes_Automatizados_API/blob/main/testes%20automatizado%20python.jpg)
+
 ---
 
 ## Dependências
@@ -120,10 +122,10 @@ Essas funções são chamadas no `body.py` para preencher dinamicamente os dados
 
 ---
 
-## Próximos Passos
+## Próximos Passos que irei adicionar
 
 1. Adicionar cobertura para outros métodos HTTP como PUT e PATCH.
-2. Incluir autenticação nos testes, se necessário.
+2. Incluir autenticação nos testes
 3. Criar relatórios automáticos para os resultados dos testes.
 4. Integrar com pipelines CI/CD.
 
